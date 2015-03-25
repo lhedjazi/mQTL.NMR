@@ -2,6 +2,7 @@
 citHeader("Please cite the paper below for the mQTL.NMR software itself. Please also try to cite the
 appropriate methodology articles that describe the methods implemented in mQTL.NMR, depending on
 which functions you are using. The methodology articles are listed in the mQTL.NMR manual.")
+
 citEntry(entry="article",
 title = "mQTL.NMR: An integrated suite for genetic mapping of quantitative variations of 1H
 NMR-based metabolic profiles.",
