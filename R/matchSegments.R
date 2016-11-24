@@ -34,6 +34,8 @@ for (index in 1:intSegLength)
 
     peaksCompared<-comparePeaks(refSp, refSegments, intSp, testSeg, MAX_DIST_FACTOR, FALSE)
 
+   	if (is.na(peaksCompared$rC)) peaksCompared$rC=0
+ 
     if ((peaksCompared$rC>MIN_RC) && (peaksCompared$rC!=0))
     {
         intSegments$refIndex[index]<-peaksCompared$iSimilarPeakInd
